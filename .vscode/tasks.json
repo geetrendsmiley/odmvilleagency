@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Push website to GitHub",
+			"type": "shell",
+			"command": "git init && git branch -M main && git add . && git commit -m \"Initial website upload\" && (git remote get-url origin >NUL 2>&1 && git remote set-url origin https://github.com/geetrendsmiley/odmvilleagency.git || git remote add origin https://github.com/geetrendsmiley/odmvilleagency.git) && git push -u origin main",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

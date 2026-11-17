@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://odmville.geegig.com/sitemap.xml
